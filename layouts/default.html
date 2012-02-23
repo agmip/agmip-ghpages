@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= @item[:title] %></title>
+    <link rel="stylesheet" type="text/css" href="/style.css" media="screen">
+    <meta name="generator" content="nanoc 3.3.1">
+  </head>
+  <body>
+    <div id="main">
+      <img id="logo" src="/logo_85_notext.png" alt="AgMIP">
+      <%= yield %>
+    </div>
+    <div id="sidebar">
+      <h2>Community</h2>
+      <ul>
+        <li><a href="http://agmip.org/">AgMIP Site</a></li>
+        <li><a href="http://research.agmip.org/">AgMIP Research Site</a></li>
+        <li><a href="http://github.com/agmip/">Github</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
